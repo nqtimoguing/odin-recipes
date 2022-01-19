@@ -1,0 +1,106 @@
+/*THE RECIPE PAGES' STYLE*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header {
+    background-color: #f7e584;
+    margin-top: 0;
+    padding-top: 3px;
+}
+
+.site-name {
+    font-family: cursive;
+    font-size: 70px;
+    color: #cc080b;
+    margin-left: 20px;  
+}
+hr {
+    color: #cc080b;
+    font-weight: bold;
+}
+.recipe,
+.image,
+.recipe-name {
+    position: relative;
+    top: 50px;
+
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: #cc080b 5px solid;
+    border-radius: 10px;
+}
+.recipe-name {
+    text-align: center;
+    position: relative;
+    top:  100px;
+    font-size: 35px;
+    color: #cc080b;
+}
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+    bottom: 200px;
+}
+
+h4 {
+    font-size: 25px;
+    position: relative;
+    left: 200px;
+}
+.desc-container {
+    position: relative;
+    bottom: 230px;
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 1rem;
+}
+.ings-container {
+    position: relative;
+    bottom: 200px;
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 1.5em;
+}
+ul li {
+    list-style-type: none;
+}
+.procedure-container {
+    font-size: 20px;
+    position: absolute;
+    left: 1500px;
+    top: 500px;
+    line-height: 3rem;
+}
+ .pointer-link a {
+    color: #cc080b;
+    font-weight: bold;
+    font-size: 25px;
+    list-style-type: none;
+    display: flex;
+    margin-left: 300px;
+}
+.p2 {
+    position: relative;
+    left: 500px;
+    bottom: 30px;
+}
+.p3 {
+    position: relative;
+    left: 1000px;
+    bottom: 60px;
+}
+.p4 {
+    position: relative;
+    left: 1500px;
+    bottom: 80px;
+}
