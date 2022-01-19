@@ -4,17 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="recipes.css">
     <title>Odin Recipes</title>
   </head>
   <body>
-    <h1>Chicken Macaroni Salad</h1>
-    <img src="../images/macaroni.jpg" width="250" alt="Chicken Macaroni Salad" />
-
+    <!--HEADER-->
+    <header>
+    <h1 class="site-name">Odin Recipes</h1>
+    <hr>
+</header>
+    <!--RECIPE NAME-->
+    <div class="recipe">
+    <img class="image" src="../images/macaroni.jpg" width="250" alt="Chicken Macaroni Salad" />
+    <h1 class="recipe-name">Chicken Macaroni Salad</h1>
+    </div>
+     
+    <div class="desc-container">
     <h4>Description</h4>
+    <br>
     <p>A taste of Macaroni Salad that will surely satisfy your palette.</p>
     <p>This yummy treat is always present at any occassion and is one of my favorites.</p>
+    <br>
     <p>By <strong>Elleb</strong></p>
+    </div>
 
+     <div class="ings-container">
     <h4>Ingredients</h4>
     <ul>
         <p>The proportion of the ingredients is up to your preference.</p>
@@ -27,6 +41,9 @@
       <li>Read and green Kaong, drained</li>
       <li>Boiled chicken fillet</li>
     </ul>
+    </div>
+
+     <div class="procedure-container">
     <h4>Procedure</h4>
     <ol>
       <li>Boil the macaroni pasta. Just follow the packaging instruction.</li>
@@ -36,14 +53,18 @@
       <li>Put the mixture in a container, cover it and put inside the refrigerator.</li>
       <li>After some time, when it is cold, you can now eat and enjoy your yummy macaroni salad. </li>
     </ol>
-    <p>Enjoy and satisfy that pallete!</p>
+    </div>
 
-    <a href="../index.html">Back to main</a>
-   <br>
-    <a href="macaroni.html">Back on top</a>
-    <br>
-    <a href="spaghetti.html">Next</a>
+    <h3>Enjoy and satisfy that pallete!</h3>
 
+    <div class="pointer-link">
+     <ul>
+         <div class="p1" ><li> <a href="../index.html">Main</a> </li> </div>
+         <div class="p2"><li> <a href="macaroni.html">Top</a> </li> </div>
+         <div class="p3"><li><a href="../index.html">Back</a> </li> </div>
+         <div class="p4"><li><a href="spaghetti.html">Next</a> </li>  </div>    
+      </ul>
+    </div>
     
   </body>
 </html>
